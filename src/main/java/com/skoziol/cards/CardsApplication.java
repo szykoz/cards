@@ -14,21 +14,21 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @OpenAPIDefinition(
 		info = @Info(
 				title = "Cards microservice REST API Documentation",
-				description = "EazyBank Cards microservice REST API Documentation",
-				version = "v1",
+				description = "SzymixBANK Cards microservice REST API Documentation",
+				version = "V1",
 				contact = @Contact(
-						name = "Madan Reddy",
-						email = "tutor@eazybytes.com",
-						url = "https://www.eazybytes.com"
+						name = "Szymon Koziol",
+						email = "skoziol.priv@gmail.com",
+						url = "www.linkedin.com/in/szymon-kozioł-09713221b"
 				),
 				license = @License(
 						name = "Apache 2.0",
-						url = "https://www.eazybytes.com"
+						url = "https://www.apache.org/licenses/LICENSE-2.0"
 				)
 		),
 		externalDocs = @ExternalDocumentation(
-				description = "EazyBank Cards microservice REST API Documentation",
-				url = "https://www.eazybytes.com/swagger-ui.html"
+				description = "SzymixBANK Cards microservice REST API Documentation",
+				url = "https://www.google.com"
 		)
 )
 public class CardsApplication {
